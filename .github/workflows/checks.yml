@@ -4,8 +4,9 @@ name: Checks
 on: [push]
 
 jobs:
-  environment: recipe-app-api
+  e
     test-lint:
+      environment: recipe-app-api
       name: Test and Lint
       runs-on: ubuntu-20.04
       steps:
