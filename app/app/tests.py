@@ -14,4 +14,3 @@ class calcTests(SimpleTestCase):
         res = calc.add(5, 6)
 
         self.assertEqual(res, 11)
-        
